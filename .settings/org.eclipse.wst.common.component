@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SkillBazaar_fin">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="jBCrypt-0.4.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jBCrypt-0.4.3/jBCrypt-0.4.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet-api-4.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet-api-4.0.1/javax.servlet-api-4.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bootstrap-5.3.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/bootstrap-5.3.0/bootstrap-5.3.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-j-9.1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-j-9.1.0/mysql-connector-j-9.1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SkillBazaar_fin"/>
+        <property name="java-output-path" value="/SkillBazaar_fin/build/classes"/>
+    </wb-module>
+</project-modules>
